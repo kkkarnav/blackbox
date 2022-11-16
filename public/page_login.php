@@ -2,7 +2,7 @@
 
 require_once 'init.php';
 
-$_title = 'Login - SmartAdmin v4.6.3';
+$_title = 'Login - Blackbox';
 $_head = '<link rel="stylesheet" media="screen, print" href="'.ASSETS_URL.'/css/fa-brands.css">
 ';
 
@@ -40,9 +40,9 @@ License: You must have a valid license purchased only from wrapbootstrap.com (li
                             <div class="row">
                                 <div class="col col-md-6 col-lg-7 hidden-sm-down">
                                     <h2 class="fs-xxl fw-500 mt-4 text-white">
-                                        The simplest UI toolkit for developers &amp; programmers
+                                        To believe in anonymity or to be anonymous?
                                         <small class="h3 fw-300 mt-3 mb-5 text-white opacity-60">
-                                            Presenting you with the next level of innovative UX design and engineering. The most modular toolkit available with over 600+ layout permutations. Experience the simplicity of SmartAdmin, everywhere you go!
+                                            BlackBox is an ecosystem consisting of minicomputers that protect their users' data by ensuring completely private communications.
                                         </small>
                                     </h2>
                                     <a href="#" class="fs-lg fw-500 text-white opacity-70">Learn more &gt;&gt;</a>
@@ -102,11 +102,10 @@ License: You must have a valid license purchased only from wrapbootstrap.com (li
                                     </div>
                                 </div>
                             </div>
-                            <div class="position-absolute pos-bottom pos-left pos-right p-3 text-center text-white">
-                                2020 © SmartAdmin for PHP by&nbsp;<a href='https://smartadmin.lodev09.com' class='text-white opacity-40 fw-500' title='smartadmin.lodev09.com' target='_blank'>@lodev09</a>
-                            </div>
+                            
                         </div>
                     </div>
+                    <?php include_once APP_PATH.'/includes/footer.php'; ?>
                 </div>
             </div>
         </div>
