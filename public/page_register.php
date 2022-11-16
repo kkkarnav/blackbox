@@ -100,9 +100,8 @@ License: You must have a valid license purchased only from wrapbootstrap.com (li
                                 </div>
                             </div>
                         </div>
-                        <div class="position-absolute pos-bottom pos-left pos-right p-3 text-center text-white">
-                            2020 © SmartAdmin for PHP by&nbsp;<a href='https://smartadmin.lodev09.com' class='text-white opacity-40 fw-500' title='smartadmin.lodev09.com' target='_blank'>@lodev09</a>
-                        </div>
+                        
+                        <?php include_once APP_PATH.'/includes/footer.php'; ?>
                     </div>
                 </div>
             </div>
